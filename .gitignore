@@ -57,7 +57,22 @@ buck-out/
 
 # CocoaPods
 /ios/Pods/
+.nyc_output/
+build/
+dist/
+node_modules/
+*.history
 
-# IDE
-.vscode/
-.history/
+#IDEs
+.vscode
+.idea
+.env
+.env.*
+!.env.example
+.history
+
+#yarn
+yarn.lock
+
+# Coverage
+coverage
